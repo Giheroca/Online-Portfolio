@@ -1,0 +1,157 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+    line-height: 1.5em;
+    background-color: #4e4a4a;
+}
+
+.imagecropper {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: 40%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 5px #ed0f87;
+}
+
+.course {
+    display: flex;
+    min-width: 300px;
+    overflow-wrap: normal;
+    position: relative;
+}
+
+.course-description {
+    position: relative;
+}
+
+.profile-picture {
+    display: flex;
+    margin: auto;
+    margin-left: -20%;
+    height: 100%;
+    width: auto;
+}
+
+.course-description-content {
+    margin: px 35;
+    align-self: right;
+    text-wrap: wrap;
+}
+
+header {
+    background: #ccc;
+    height: 100px;
+}
+
+    header h1 {
+        margin: 0;
+        padding-top: 15px;
+    }
+
+main {
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    float: left;
+    width: 100%;
+}
+
+nav {
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    float: left;
+    width: 230px;
+    margin-left: -230px;
+    background: #eee;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    padding: 4px 0;
+    postion: bottom;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+
+.innertube {
+    margin: 15px; 
+    width: auto;
+    display: flex;
+}
+
+p {
+    color: #ed0f87;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+
+#leftmenu1 {
+    float: left;
+    width: 250px;
+    margin-left: -460px; / Width of '#rightmenu' and '#leftmenu' combined. */
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: #F7FDEB;
+}
+
+#rightmenu1 {
+    float: left;
+    width: 210px;
+    margin-left: -210px;
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: #DAE9BC;
+}
+
+#mainwrapper1 {
+    overflow: hidden;
+}
+
+#contentwrapper1 {
+    float: left;
+    width: 100%;
+}
+
+.innertube1 {
+    margin: 15px;
+    width: auto;
+    position: relative;
+}
